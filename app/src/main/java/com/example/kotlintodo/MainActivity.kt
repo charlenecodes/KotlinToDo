@@ -85,7 +85,7 @@ class MainActivity : ComponentActivity() {
                     } else {
                         if (taskViewModel.tasks.isNotEmpty()) TaskFilter(taskViewModel)
                     }
-                    
+
                     Column(
                         horizontalAlignment = Alignment.CenterHorizontally,
                         verticalArrangement = Arrangement.Bottom,

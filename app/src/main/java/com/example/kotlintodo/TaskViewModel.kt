@@ -59,7 +59,6 @@ class TaskViewModel: ViewModel() {
 
     init {
         setDarkTheme()
-        tasks = sampleList
     }
 
     fun toggleCompletion(currentTask: TaskModel) {
